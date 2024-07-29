@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a recent indian polity today news and interesting facts with data , advices and question ask on those news, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis and trending hastags";
+    "generate a recent indian polity today news and interesting facts with data , advices and question ask on those news; under 280 characters and should be plain text, you can use emojis and trending hastags";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
